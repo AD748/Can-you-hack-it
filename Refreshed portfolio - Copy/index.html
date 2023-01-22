@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Black Eyes</title>
+    <link rel="icon" href="me.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+</head>
+
+<body>
+    <div class="vid">
+        <video autoplay muted loop id="myVideo">
+            <source id="video-source" src="" type="video/mp4">
+        </video>
+
+    </div>
+    <div class="all">
+        <header>
+            <img src="me2.png" class="logo">
+            <div class="gd">
+                Graphic Designer & UI/UX Developer
+            </div>
+
+
+            <!-- <button  class="box1"> <a href="google.com">Home</a></button> -->
+            <button onclick="window.location.href ='index.html'" class="box1">Home</button>
+            <!-- <a  class="box1" href="google.com">Home</a> -->
+            <button onclick="window.location.href = 'about.html'" class="box1">About Me</button>
+            <button onclick="window.location.href = 'mailto:shuvampatra03@gmail.com'" class="box2">Hire Me</button>
+
+        </header>
+
+        <div class="fullgreet">
+            <div class="greet">
+                <img src="name.png" alt="" class="name">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="contents">
+        <!-- <div class="img1">
+            <img src="ufo.png" alt="" id="ufo">
+        </div> -->
+        <div class="expone">
+
+            <div class="contents1">
+                <span class="exp1">
+                    Explore My Arts <br>
+                </span>
+
+                <span class="exp2">
+                    Click below to visit the instagram page. <br>
+                </span>
+
+
+            </div>
+            <button onclick="window.location.href ='https://instagram.com/blackeyes_studio?utm_medium=copy_link'"
+                class="expbtn">Explore</button>
+
+
+        </div>
+
+        <div class="exptwo">
+
+            <div class="contents2">
+                <span class="exp1">
+                    Join Discord Server <br>
+                </span>
+
+                <span class="exp2">
+                    Click below to visit the discord server. <br>
+                </span>
+                <button onclick="window.location.href ='https://discord.gg/ZCypcJwAYy'" class="expbtn">Join</button>
+
+            </div>
+
+
+
+        </div>
+
+        <div class="optionbox">
+
+            <div class="expthree">
+                <div class="contents2">
+                    <span class="exp3">
+                        Services<br>
+                    </span>
+                </div>
+
+                <div class="cards">
+                    <img src="card1.png" alt="" class="card">
+                    <img src="card2.png" alt="" class="card">
+                    <img src="card3.png" alt="" class="card">
+                </div>
+            </div>
+
+            <div class="space"></div>
+
+
+            <div class="icons">
+                <img src="icons.png" alt="" class="iconsmain">
+            </div>
+
+        </div>
+
+        <div class="cv">
+            <p class="download">
+                <a href="pdf.pdf" class="button"><i class="downloadbtn"></i>Download CV</a>
+            </p>
+        </div>
+
+        <div class="foot">
+            <div class="about">
+                The Black Eyes aka Shuvam Patra, an India based graphic deigner, digital artist,
+                UI/UX designer.
+            </div>
+
+            <div class="social">
+                <a href="https://www.instagram.com/blackeyesandblue09/"><img id="insta" src="insta.png"></a>
+                <a href="https://www.facebook.com/shuvam.patra.33"><img id="face" src="face.png"></a>
+                <a href=" https://twitter.com/THEBLACKEYES09?s=09"><img id="tweet" src="tweet.png"></a>
+                <a href="https://www.youtube.com/c/THEBLACKEYES/featured"><img id="you" src="youtube.png"></a>
+            </div>
+
+
+        </div>
+
+    </div>
+</body>
+
+<script type="text/javascript">
+
+
+    var video = document.getElementById('myVideo');
+    var source = document.getElementById('video-source');
+
+    var videos = ["1.mp4", "2.mp4", "3.mp4", "4.mp4", "5.mp4", "6.mp4", "7.mp4", "8.mp4"];
+
+    var randomVideo = videos[Math.floor(Math.random() * videos.length)];
+
+    source.setAttribute('src', randomVideo);
+    video.load();
+</script>
+
+</html>

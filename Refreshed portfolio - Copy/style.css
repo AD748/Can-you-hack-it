@@ -1,0 +1,387 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.vid {
+    z-index: -1000;
+    /* background-clip: url; */
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.all {
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.logo {
+    height: 10%;
+    width: 10%;
+    border-radius: 100px;
+    justify-content: flex-start;
+}
+
+.box1 {
+    margin-right: 10px;
+    width: 90px;
+    height: 30px;
+    top: 56px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.466);
+    border-radius: 50px;
+    border: 2px solid white;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    justify-content: flex-end;
+}
+
+.box1:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.box2 {
+    margin-right: 0px;
+    width: 90px;
+    height: 30px;
+    top: 56px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    background: #390069;
+    border: 2px solid #B55FFF;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    border-radius: 50px;
+}
+
+.box2:hover {
+    color: #390069;
+    border: 2px solid #ffc95c;
+    background: #ffc95c;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.gd {
+    justify-content: center;
+    margin: auto;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
+.greet {
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+
+}
+
+
+.name {
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.fullgreet {
+    padding-top: 27vh;
+    padding-bottom: 45vh;
+}
+
+.expbtn {
+    margin-right: 0px;
+    width: 110px;
+    height: 38px;
+    top: 56px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    background: #BABFFF;
+    border: 0px solid rgb(167, 42, 42);
+    cursor: pointer;
+    color: #31327A;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border-radius: 50px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.expbtn:hover {
+    color: #BABFFF;
+    background: #31327A;
+}
+
+.exp1 {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.exp2 {
+    font-size: 15px;
+    gap: 2px;
+
+}
+
+.col1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+.expone{
+    padding-left: 20vh;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: inline flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(ufo.png) ;
+    color: #ffffff;
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+.img1 {
+    margin: 0px;
+    padding: 0px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#ufo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1000;
+}
+
+.exptwo{
+    padding-left: 20vh;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: inline flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(fly.png) ;
+    color: #ffffff;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.30);
+    
+}
+
+.expthree{
+    padding-left: 20vh;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: inline flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card{
+    margin: 5px 0px 5px 0px;
+    max-width: 30vh;
+}
+
+.card:hover{
+    margin: 3px 0px 3px 0px;
+    border: #B55FFF solid 2px;
+    border-radius: 5px;
+    max-width: 30vh;
+}
+
+.optionbox{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-image: url(serve.png) ;
+    color: #ffffff;
+    /* background-attachment: fixed; */
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.30);
+    align-items: center;
+}
+
+.icons{
+    max-width: 60%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.icons img{
+    max-width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.iconsmain{
+    align-items: flex-end;
+    max-width: 80%;
+    vertical-align: middle;
+    margin-right: 65px;
+    margin-top: 22px;
+}
+
+.space{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width:100% ;
+    
+}
+
+.exp3{
+    font-size: 35px;
+    font-weight: 800;
+    
+}
+
+.contents2{
+    padding-bottom: 30px;
+}
+
+.about {
+    text-align: center;
+    padding-left: 0px;
+    padding-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+    /* margin-top: 27px; */
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.social > a {
+    height: 3%;
+    width: 0%
+    padding: 3%;
+
+}
+
+.social > img {
+    width: 15%;
+}
+
+#insta{
+    width: 35px;
+    /* margin: 35px; */
+}
+#face{
+    width: 35px;
+    /* margin: 35px; */
+}
+#tweet{
+    width: 35px;
+    /* margin: 35px; */
+}
+#you{
+    width: 35px;
+    /* margin: 35px; */
+}
+.social{
+    margin-left: 25%;
+    margin-right: 25%;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+
+.cv{
+    text-align: center;
+    background-color: #000000;
+    padding-top: 55px;
+}
+
+.download{
+    display:inline;
+    background-color: #ffc95c;
+    padding: 10px;
+    border-radius: .5vh;
+    cursor: pointer;
+}
+
+.button{
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+.download:hover{
+    display:inline;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: .5vh;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: #390069;
+    text-decoration: none;
+    
+}
+
+.foot{
+    background-color: #000000;
+    color: #BABFFF;
+    padding-bottom:80px ;
+}
